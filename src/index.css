@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 50vh;
+}
+
+.maintemplate {
+  display: flex;
+  flex-direction: column;
+  color: #2e0606;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 100;
+}
+
+.loginheaderbar {
+  margin-top: 0;
+  background: #8ec449;
+  color: #8ec449;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginbox {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.loginbox .login {
+  background-color: #fffbed;
+  border-radius: 15px;
+  box-shadow: 0 15px 15px 0 rgb(142, 196, 73);
+  display: block;
+  padding: 10px 30px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+}
+
+.logindiv {
+  display: flex;
+  flex-direction: column;
+  color: #8ec449;
+  text-align: center;
+  cursor: pointer;
+}
+
+.loginbtn {
+  background: #8ec449;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.logout:hover {
+  color: #ffd202;
+}
+
+.readmore:hover {
+  color: #050503;
+}
+
+.searchbtn {
+  background: #ffd202;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.footer {
+  margin-top: 20px;
+  margin-bottom: 0;
+  background: #effae1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbarstyles {
+  background: #8ec449;
+  color: fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.entryrecordalert {
+  background: #ffd202;
+  color: #1e1e1e;
+}
+
+.adddataform {
+  background: #fff3cd;
+}
+
+.adddataform1 {
+  background: #e9ecef !important;
+}
+.adddataform2 {
+  background: #8ec449;
+}
+
+.navbar {
+  background: #8ec449;
+  font-size: medium;
+  font-weight: bold;
+  color: #ee9b00;
+  margin: 0;
+}
+.listgroup {
+  background: #8ec449;
+}
+.listinside {
+  background: #fffbed;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+.accountsdiv {
+  align-items: center;
+  text-align: center;
+  color: #fffbed;
+  font-weight: lighter;
+  text-align: right;
+}
+
+.profilepic {
+  border-radius: 50%;
+}
+.navlogopic {
+  margin-top: 15px;
+  width: 25%;
+  height: 100%;
+}
+
+.helppic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  padding-top: 2;
+}
+
+.listgroup {
+  background-color: #8ec449;
+}
+.listiconcolors {
+  color: #8ec449;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  margin-left: 20px;
+  align-items: center;
+
+  padding: 1000px;
+}
+
+.listgroup {
+  height: 2;
+}
+
+.menuslist {
+  display: inline-flex;
+}
+
+.list-group-item {
+  font-size: 10;
+  background: #ffd202;
+}
+.tabcontentdisplay {
+  font-size: 10;
+  color: black;
+}
+.tabcontentdisplaylist {
+  font-size: 10;
+  color: black;
+  text-align: left;
+  margin-left: 120px;
+}
+
+.tablestlyles {
+  background-color: #8ec449;
+  color: #effae1;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tablestlyles2 {
+  background-color: #070706;
+  color: #effae1;
+  font-weight: bold;
+  text-align: center;
+}
+.tablestlyles3 {
+  background-color: #ececec;
+  color: #080c03;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sectiondescription {
+  background: #e9ecef;
+  color: fff;
+}
+
+.nav-links {
+  display: inline - block;
+  height: 20 px;
+  background-color: white; /*will change background-color of element */
+  color: green; /*will change color of text within the element */
+}
+
+.nav-links hover {
+  background-color: green; /*will change background-color of element on hover */
+  color: white; /*will change color of text within the element on hover */
+}
+
+.navdropdown {
+  width: auto;
+  font-size: larger;
+  height: auto;
+}
+.navtitle {
+  font-size: initial;
+  color: #ee9b00;
+}
+
+.list-group-item-action {
+  background-color: #ee9b00;
+}
+.appraisal {
+  background-color: #e5f1fb;
+  font-size: large;
+}
