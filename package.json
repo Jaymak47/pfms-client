@@ -7,6 +7,7 @@
     "@apollo/react-hooks": "^4.0.0",
     "apollo-cache-inmemory": "^1.6.6",
     "apollo-client": "^2.6.10",
+    "apollo-link-context": "^1.0.20",
     "apollo-link-error": "^1.1.13",
     "apollo-link-http": "^1.5.17",
     "bootstrap": "^5.1.1",
@@ -57,5 +58,5 @@
   "devDependencies": {
     "jshint": "^2.13.1"
   },
-  "proxy": "https://gentle-gorge-53576.herokuapp.com/"
+  "proxy": "https://gentle-gorge-53576.herokuapp.com"
 }
